@@ -20,7 +20,7 @@ If you leave off the salt, the command will generate a random one for you and di
 Have a look at the source and modify as needed. Its super short and simple.
 
 ### Security
-Don't use this for anything critical. It doesnt do any sort of password strength checking and the internally generated salts are only 32 bits of data. Thats not enough for anything serious. I think couchdb uses 128 bits last time I checked. I'm sure these are not the only issues, so if you use this to create password hashes that are later cracked ... ** I told you so**.
+Don't use this for anything critical. It doesnt do any sort of password strength checking and the internally generated salts are only 32 bits of data. Thats not enough for anything serious. I think couchdb uses 128 bits last time I checked. I'm sure these are not the only issues, so if you use this to create password hashes that are later cracked ... **I told you so**.
 
 ## To Do
 
