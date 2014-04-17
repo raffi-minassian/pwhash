@@ -1,6 +1,6 @@
 {
   "name": "node-pwhash",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Returns a password hash in the style of couchdb's internal password hashing.",
   "main": "./lib/pwhash.js",
   "scripts": {
@@ -14,6 +14,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/raffi-minassian/pwhash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raffi-minassian/pwhash/issues"
   },
   "author": "Raffi Minassian (https://twitter.com/RaffiMinassian)",
   "license": "ISC",
