@@ -1,7 +1,7 @@
 pwhash
 ========
 
-A small utility command that returns a password hash in the style of couchdb's internal password hashing.
+A small utility command that returns an sha1 password hash in the style of couchdb's internal password hashing.
 
 ## Installation
 
@@ -13,7 +13,7 @@ pwhash -p password -s salt (as hex string)
 
 ## Notes
 
-I like the way [couchdb](http://couchdb.apache.org) manages password storage for users and I have a lot of projects which loosely emulate that. This tools makes it quick and easy to generate a password hash on the command line for temporary users during testing, etc.
+I like the way [couchdb](http://couchdb.apache.org) manages password storage for users and I have a lot of projects which loosely emulate that. This tools makes it quick and easy to generate an sha1 password hash on the command line for temporary users during testing, etc.
 
 If you leave off the salt, the command will generate a random one for you and display it along with the password hash on the output as a hex string.
 

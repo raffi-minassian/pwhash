@@ -1,7 +1,7 @@
 {
   "name": "node-pwhash",
-  "version": "0.2.0",
-  "description": "Returns a password hash in the style of couchdb's internal password hashing.",
+  "version": "0.2.1",
+  "description": "Returns an sha1 password hash in the style of couchdb's internal password hashing.",
   "main": "./lib/pwhash.js",
   "scripts": {
     "start": "node ./lib/pwhash.js"
@@ -9,7 +9,8 @@
   "keywords": [
     "password",
     "hash",
-    "couchdb"
+    "couchdb",
+    "pwhash"
   ],
   "repository": {
     "type": "git",
