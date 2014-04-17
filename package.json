@@ -11,6 +11,10 @@
     "hash",
     "couchdb"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/raffi-minassian/pwhash.git"
+  },
   "author": "Raffi Minassian (https://twitter.com/RaffiMinassian)",
   "license": "ISC",
   "dependencies": {
