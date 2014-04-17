@@ -1,0 +1,25 @@
+{
+  "name": "pwhash",
+  "version": "0.1.0",
+  "description": "Returns a password hash in the style of couchdb's internal password hashing.",
+  "main": "./lib/pwhash.js",
+  "scripts": {
+    "start": "node ./lib/pwhash.js"
+  },
+  "keywords": [
+    "password",
+    "hash",
+    "couchdb"
+  ],
+  "author": "Raffi Minassian (https://twitter.com/RaffiMinassian)",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "0.0.8"
+  },
+  "bin": {
+    "pwhash": "./bin/pwhash"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
