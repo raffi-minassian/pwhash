@@ -1,5 +1,5 @@
 {
-  "name": "pwhash",
+  "name": "node-pwhash",
   "version": "0.1.0",
   "description": "Returns a password hash in the style of couchdb's internal password hashing.",
   "main": "./lib/pwhash.js",
