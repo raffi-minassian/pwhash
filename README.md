@@ -5,7 +5,7 @@ A small utility command that returns a password hash in the style of couchdb's i
 
 ## Installation
 
-npm install pwhash -g
+npm install node-pwhash -g
 
 ##Usage
 
